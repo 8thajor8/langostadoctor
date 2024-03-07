@@ -21,7 +21,7 @@ $aqua: rgb(147,212,218);
 
 body{
     font-family: 'AmsiPro-Regular';
-    background-color: black;
+    background-color: white;
 }
 
 @keyframes pulsate {
@@ -392,7 +392,7 @@ body{
     padding: 50px 0;
     text-align: center;
     background: rgb(51,82,150);
-    background: linear-gradient(180deg,black 0%, black 90%, white 100%);
+    background: linear-gradient(180deg, $primary-blue 5%, $primary-blue 60%, white 100%);
     .services__title {
         font-size: 2.3rem;
         font-family: $head-text;
