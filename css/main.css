@@ -474,11 +474,11 @@ body {
   font-family: "AmsiPro-UltraItalic";
   margin-bottom: 20px;
 }
-.contact__container .contact__content .contact__card p {
+.contact__container .contact__content .contact__card .description {
   font-size: 1rem;
   font-weight: 700;
 }
-.contact__container .contact__content .contact__card a {
+.contact__container .contact__content .contact__card .description a {
   text-decoration: none;
   font-family: "AmsiPro-UltraItalic";
   color: rgb(51, 82, 150);
@@ -488,6 +488,7 @@ body {
 }
 .contact__container .contact__content .contact__card .whatsapp__button:hover {
   background-color: rgb(147, 212, 218);
+  color: white;
 }
 
 .whatsapp__round {

@@ -568,20 +568,22 @@ body{
                 margin-bottom: 20px;
                 
             }
-            p {
+            .description {
                 font-size: 1rem;
                 font-weight: 700;
+                a{
+                    text-decoration: none;
+                    font-family: $head-text;
+                    color: $primary-blue;
+                }
             }
-            a{
-                text-decoration: none;
-                font-family: $head-text;
-                color: $primary-blue;
-            }
+            
             .whatsapp__button{
                 background-color: $primary-red;
                 
                 &:hover{
                     background-color: $aqua;
+                    color: white;
                 }
             }
         }
